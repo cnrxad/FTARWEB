@@ -164,10 +164,16 @@ ul {
     width: 50%;
     margin-bottom: 30px;
   }
+  #under-coming{
+    top: 65%;
+}
 }
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
   }
+  #under-coming{
+  top: 75%;
+}
 }
 
