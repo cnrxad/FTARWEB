@@ -10,6 +10,6 @@ document.querySelector('form').addEventListener('submit', function(event) {
       window.location.href = 'ruta-al-archivo.zip';
     } else {
       // Redirigir a otra página
-      window.location.href = 'otra-pagina.html';
+      window.location.href = 'videoplayback.html';
     }
   });
