@@ -7,9 +7,10 @@
 html {
   min-height: 100%;
   position: relative;
-  background-color: #191919;
 }
-
+body{
+  height: 100%;
+}
 * {
   padding: 0;
   margin: 0;
@@ -27,6 +28,13 @@ center {
 #under-coming {
   font-size: 150%;
   top: 55%;
+}
+.bg-index{
+  background: url(https://media.discordapp.net/attachments/1134606618554798131/1165050464178552832/Sin_titulo-1.png?ex=654570cc&is=6532fbcc&hm=deb0dfc6a0021a8e4905e9f77947eb869bdc7e73d46559f97d30e882bb4a77f2&=&width=1201&height=675);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .header {
