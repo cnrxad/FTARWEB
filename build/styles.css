@@ -15,6 +15,18 @@ html{
   margin: 0;
   font-family: Poppins, sans-serif;
 }
+center{
+  position: absolute;
+  left: 50%; /* relative to nearest positioned ancestor or body element */
+  top: 50%; /*  relative to nearest positioned ancestor or body element */
+  transform: translate(-50%, -50%); /* relative to element's height & width */
+  color: #fff;
+  font-size: 300%;
+}
+#under-coming{
+  font-size: 150%;
+  top: 55%;
+}
 
 .header {
   padding: 0vh;
