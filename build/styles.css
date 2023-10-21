@@ -9,7 +9,7 @@ html {
   position: relative;
   background-color: #191919;
 }
-body{
+body {
   height: 100%;
 }
 * {
@@ -30,7 +30,7 @@ center {
   font-size: 150%;
   top: 55%;
 }
-.bg-index{
+.bg-index {
   background: url(https://media.discordapp.net/attachments/1134606618554798131/1165050464178552832/Sin_titulo-1.png?ex=654570cc&is=6532fbcc&hm=deb0dfc6a0021a8e4905e9f77947eb869bdc7e73d46559f97d30e882bb4a77f2&=&width=1201&height=675);
   background-position: center;
   background-repeat: no-repeat;
@@ -80,12 +80,19 @@ center {
   position: fixed;
   z-index: -1;
 }
-.imageButton:hover {
-  cursor: pointer;
-  filter: sepia(100%);
-}
 .imageButton:active {
-  top: 1px;
+  padding-top: 2px;
+}
+.shadow img {
+  transition: 0.5s ease;
+}
+
+.shadow img:hover {
+  box-shadow: 1px 1px #4bff00, 2px 2px #303030, 3px 3px #303030, 4px 4px #303030,
+    5px 5px #303030, 6px 6px #303030;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
 }
 
 .container {
@@ -171,9 +178,9 @@ ul {
   #under-coming {
     top: 65%;
   }
-  #under-coming{
+  #under-coming {
     top: 65%;
-}
+  }
 }
 @media (max-width: 574px) {
   .footer-col {
@@ -182,7 +189,7 @@ ul {
   #center {
     top: 55%;
   }
-  #center{
-  top: 55%;
-}
+  #center {
+    top: 55%;
+  }
 }
