@@ -82,6 +82,7 @@ center {
 }
 .imageButton:hover {
   cursor: pointer;
+  filter: sepia(100%);
 }
 .imageButton:active {
   top: 1px;
