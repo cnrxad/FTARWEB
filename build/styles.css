@@ -58,15 +58,7 @@ center {
 #second-title {
   color: #f93a3a;
 }
-.a-download-button {
-  width: max-content;
-}
-#download-button {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .main {
   padding-top: 0%;
   padding-bottom: 5%;
@@ -89,7 +81,7 @@ center {
   z-index: -1;
 }
 .imageButton:hover {
-  filter: sepia(35%);
+  cursor: pointer;
 }
 .imageButton:active {
   top: 1px;
