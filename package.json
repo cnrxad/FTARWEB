@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cnrxad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^2.3.0"
+  }
 }
