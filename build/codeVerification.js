@@ -5,7 +5,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     var codigo = document.querySelector('#codigo').value;
   
     // Validar el código
-    if (codigo === 'ri69cky33') {
+    if (codigo === '152521512512521521521521') {
       // Redirigir a la página de descarga
       window.location.href = 'ruta-al-archivo.zip';
     } else {
