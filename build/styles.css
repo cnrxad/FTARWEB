@@ -149,34 +149,11 @@ ul {
   transition: all 0.3s ease;
 }
 
-@keyframes mover {
-  0% {
-    transform: translateX(0);
-  }
-  15% {
-    transform: translateX(5px);
-  }
-  25% {
-    transform: translateX(10px);
-  }
-  50% {
-    transform: translateX(0);
-  }
-  65% {
-    transform: translateX(-5px);
-  }
-  75% {
-    transform: translateX(-10px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 
 .footer-col ul li a:hover {
-  color: #ff5f5f;
-  animation: mover 0.1s 2;
   display: inline-block;
+  margin-left: 10px;
+  color: #fff;
 }
 
 .footer-col .social-links a {
